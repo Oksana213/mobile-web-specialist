@@ -56,7 +56,7 @@ In the Chrome developer tools in the `Application` tab, you should see a `Servic
         .then(function(cacheNames) {
           return Promise.all(
             cacheNames.filter(function(cacheName) {
-              return cachName.startsWith('witter-') && cacheName !== staticCacheName;
+              return cacheName.startsWith('wittr-') && cacheName !== staticCacheName;
             }).map(function(cacheName) {
               return caches.delete(cacheName);
             })
