@@ -3,7 +3,8 @@ First get the project into the sample state by using the following commands:
 
 ```shell
 $ git reset --hard
-$ git checkout task-update-notify
+$ git checkout task-update-reload
+
 ```
 
 Once the task is complete, enter the Task ID: **update-reload**
